@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Repositories</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Contract Killers">
+  <meta name="generator" content="Hugo 0.74.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://tzero-dev.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://tzero-dev.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://tzero-dev.github.io/plugins/magnific-popup/magnific-popup.css ">
+  
+  <link rel="stylesheet" href="https://tzero-dev.github.io/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://tzero-dev.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://tzero-dev.github.io/images/favicon.ico " type="image/x-icon">
+  <link rel="icon" href="https://tzero-dev.github.io/images/favicon.ico " type="image/x-icon">
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <a class="navbar-brand" href="/"><img class="img-fluid"
+          src="https://tzero-dev.github.io/images/logo_blank.png" alt="tZERO | Blockchain"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-align-right h3 text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://tzero-dev.github.io/repositories">Repositories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/tZERO-dev/T0ken">Ethereum</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/tZERO-dev/Tez0ken">Tezos</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+
+
+
+<section class="page-title bg-cover overlay" style="background-image: url('https://tzero-dev.github.io/'), url('https://tzero-dev.github.io/images/backgrounds/banner.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white">Repositories</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb justify-content-center bg-transparent">
+            <li class="breadcrumb-item"><a href="https://tzero-dev.github.io/" class="text-white">Home</a></li>
+            <li class="breadcrumb-item text-white" aria-current="page">Repositories</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="bg-primary py-4">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-md-8 text-center text-md-left">
+        <h3 class="text-white">Deploy an STS compatible token today</h3>
+      </div>
+      
+      <div class="col-md-4 text-md-right text-center">
+        
+        <a href="https://www.tzero.com/contact-us" class="btn btn-secondary">Get a Quote</a>
+        
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section bg-secondary-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <div class="content mb-4"></div>
+      </div>
+    </div>
+    <div id="repos" data-github-user="tzero-dev">
+      <script id="repo-template" type="text/x-js-template">
+        <div class="row repo py-4 border-bottom">
+          <h4 class="repo-name"><a href="${link}">${name}</a></h4>
+          <div class="col-sm-12 repo-description">${description}</div>
+          <div class="col-sm-3 repo-license">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-license" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <path d="M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" />
+                <line x1="9" y1="7" x2="13" y2="7" />
+                <line x1="9" y1="11" x2="13" y2="11" />
+              </svg>${license}
+          </div>
+          <div class="col-sm-3 repo-stars">
+              <a href="${stargazers}">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <path d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                  </svg>${stars}
+              </a>
+          </div>
+          <div class="col-sm-3 repo-issues">
+              <a href="${issues_url}">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                  </svg>${issues}
+              </a>
+          </div>
+          <div class="col-sm-3 repo-forks">
+              <a href="${forks_url}">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-git-fork" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="18" r="2" />
+                    <circle cx="7" cy="6" r="2" />
+                    <circle cx="17" cy="6" r="2" />
+                    <path d="M7 8v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-2" />
+                    <line x1="12" y1="12" x2="12" y2="16" />
+                  </svg>${forks}
+              </a>
+          </div>
+          <div class="col-sm-8 repo-updated">
+            Updated ${updated}
+          </div>
+        </div>
+      </script>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="footer overflow-hidden">
+  <div class="container">
+    
+      <div class="col-lg-13">
+        <div class="row pl-lg-5 pl-0 py-5">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="text-white mb-4">About tZERO</h5>
+            <p class="text-white content">tZERO ATS, LLC, Delaware limited liability company, is a broker-dealer registered with the U.S. Securities and Exchange Commission and a member of the Financial Industry Regulatory Authority and Securities Investor Protection Corporation.</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            <h5 class="text-white mb-4">Our Company</h5>
+            <ul class="list-unstyled">
+              
+              <li class="text-white pb-3"><a href="https://www.tzero.com/newsroom">Latest News</a></li>
+              
+              <li class="text-white pb-3"><a href="https://www.tzero.com/">Our Service</a></li>
+              
+              <li class="text-white pb-3"><a href="https://www.tzero.com/privacy-policy">Privacy Policy</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="text-white mb-4">Contact Us</h5>
+            <ul class="list-unstyled">
+              <li class="text-white pb-3"><i class="ti-new-window mr-2"></i><a href="https://www.tzero.com/contact-us">https://www.tzero.com/contact-us</a></li>
+              <li class="text-white pb-3"><i class="ti-email mr-2"></i><a href="mailto:info@tzero.com">info@tzero.com</a></li>
+            </ul>
+            
+            <h5 class="text-white mb-4">Connect With Us</h5>
+            <ul class="list-inline">
+              
+              <li class="list-inline-item mx-2 text-white"><a href="https://twitter.com/tzero"><i class="ti-twitter-alt"></i></a></li>
+              
+              <li class="list-inline-item mx-2 text-white"><a href="https://www.linkedin.com/company/tzero/"><i class="ti-linkedin"></i></a></li>
+              
+              <li class="list-inline-item mx-2 text-white"><a href="https://github.com/tzero-dev/"><i class="ti-github"></i></a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  var indexURL = "https://tzero-dev.github.io/index.json"
+</script>
+
+
+<!-- Google Map API -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://tzero-dev.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/search/mark.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/search/search.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/github/list.js"></script>
+
+<script src="https://tzero-dev.github.io/plugins/google-map/gmap.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://tzero-dev.github.io/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-83014694-9', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+
+</html>
